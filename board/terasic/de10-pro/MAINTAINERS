@@ -1,0 +1,6 @@
+DE10-Pro BOARD
+M:	Jim <jim@terasic.com>
+S:	Maintained
+F:	board/terasic/de10-pro/
+F:	include/configs/socfpga_de10_pro.h
+F:	configs/socfpga_de10_pro_defconfig
