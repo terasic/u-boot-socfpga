@@ -127,7 +127,7 @@ unsigned int cm_get_qspi_controller_clk_hz(void);
 	"loadaddr=" __stringify(CONFIG_SYS_LOAD_ADDR) "\0" \
 	"bootfile=Image\0" \
 	"fdt_addr=8000000\0" \
-	"fdtimage=socfpga_stratix10_socdk.dtb\0" \
+	"fdtimage=" CONFIG_DEFAULT_DEVICE_TREE ".dtb\0" \
 	"mmcroot=/dev/mmcblk0p2\0" \
 	"mmcboot=setenv bootargs " CONFIG_BOOTARGS \
 		" root=${mmcroot} rw rootwait;" \
