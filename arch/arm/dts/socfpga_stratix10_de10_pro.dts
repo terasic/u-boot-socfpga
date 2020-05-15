@@ -28,9 +28,9 @@
 
 	memory {
 		device_type = "memory";
-		/* 16GB */
+		/* 4GB */
 		reg = <0 0x00000000 0 0x80000000>,
-		      <8 0x80000000 3 0x80000000>;
+		      <2 0x80000000 0 0x80000000>;
 		u-boot,dm-pre-reloc;
 	};
 };
